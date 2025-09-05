@@ -15,7 +15,6 @@ export default function Layout() {
         ),
       }}
     >
-      {/* Home / Now Playing tab */}
       <Tabs.Screen
         name="index"
         options={{
@@ -26,7 +25,6 @@ export default function Layout() {
         }}
       />
 
-      {/* Favourites tab */}
       <Tabs.Screen
         name="favourites"
         options={{

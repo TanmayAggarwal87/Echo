@@ -59,7 +59,6 @@ export default function NowPlaying() {
         <Text className="text-2xl font-bold">{currentSong.songName}</Text>
         <Text className="text-lg text-gray-500 mb-6">{currentSong.artist}</Text>
 
-        {/* Progress Bar */}
         <View className="w-full">
           <Slider
             value={position}
@@ -96,7 +95,6 @@ export default function NowPlaying() {
           </TouchableOpacity>
         </View>
 
-        {/* Lyrics */}
        
           <View className="mt-6 bg-blue-200/50 px-2 py-4 rounded-xl">
             <Text className="text-xl font-semibold text-center">{currentSong.lyrics}</Text>
